@@ -465,7 +465,6 @@ class Zend_Validate_NotEmptyTest extends PHPUnit\Framework\TestCase
      */
     public function testConfigObject()
     {
-        require_once 'Zend/Config.php';
         $options = array('type' => 'all');
         $config  = new Zend_Config($options);
 

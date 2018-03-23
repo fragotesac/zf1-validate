@@ -26,9 +26,6 @@ require_once 'Zend/Validate/Abstract.php';
 /** Zend_Translate */
 require_once 'Zend/Translate.php';
 
-/** Zend_Registry */
-require_once 'Zend/Registry.php';
-
 /**
  * @category   Zend
  * @package    Zend_Validate
