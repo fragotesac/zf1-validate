@@ -50,7 +50,7 @@ class Zend_Validate_DateTest extends PHPUnit\Framework\TestCase
      *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->_validator = new Zend_Validate_Date();
     }
@@ -250,7 +250,7 @@ class Zend_Validate_DateTest extends PHPUnit\Framework\TestCase
      * @return void
      * @group ZF-2789
      */
-    public function errorHandlerIgnore($errno, $errstr, $errfile, $errline, array $errcontext)
+    public function errorHandlerIgnore($errno, $errstr, $errfile, $errline, array $errcontext = array())
     {
         $this->_errorOccurred = true;
     }
